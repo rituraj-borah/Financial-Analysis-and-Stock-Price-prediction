@@ -33,7 +33,7 @@ This will start a web server and open the dashboard in your default web browser.
 ### Web App Overview
 Analyze time series trends, visualize data, check for correlations, forecast prices using machine learning, and gain insights from news sentiment analysis.
 
-![image](https://github.com/vidd01/Financial-Markets-Economic-Indicators-Analysis-/assets/122332733/55e18bce-fe6e-4969-bda5-4fb1cbb1e109)
+![image](https://github.com/rituraj-borah/Financial-Analysis-and-Stock-Price-prediction/blob/main/WebApp%20Overview.jpg)
 
 
 
