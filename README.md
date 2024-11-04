@@ -43,7 +43,3 @@ This web app, built using Streamlit, provides an interactive platform to analyze
 - Monte Carlo Simulation: Runs simulations to assess potential future stock price scenarios.
 - FB Prophet Model: Leverages the Prophet model to visualize historical performance and trends.
 - Golden Cross Signals: Highlights signals that may indicate long-term growth opportunities
-Here, users can access predictions for asset prices based on machine learning models. 
-This tab features models like XGBoost, LSTM, and other time series models including analyze historical data to forecast future prices. It provides a data-driven approach to estimate future market behavior, which can be essential for planning investment strategies.
-#### Company News and Sentiment Analysis:
-This section aggregates recent news articles related to specific companies or the overall market. It includes sentiment analysis to gauge the tone and sentiment of the news (positive, neutral, or negative) and its potential impact on the stock prices. This helps investors stay updated with the latest developments and understand how these could affect their investment decisions.
