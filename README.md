@@ -1,4 +1,4 @@
-## Financial Analysis and Stock Price prediction
+## Financial Analysis and Stock Price prediction: JP Morgan Chase and Co.
 
 ### Description
 In this project, we developed an interactive web-application enabling users to evaluate US-listed companies through financial statements, ratios, and predictive analytics. 
@@ -18,9 +18,10 @@ streamlit run app.py
 This will start a web server and open the dashboard in your default web browser.
 
 ### Features
-- Historical Data Analysis: Analyze historical stock prices and financial metrics using various statistical techniques.
+- Financial Ratio Analysis: Analyze various financial ratios like Liquidity Ratio, Profitability Ratio, Earning Ratio.
+- Financial Models like Capital Asset Pricing Model(CAPM) and Weighted Average Cost of Capital - WACC.
 - Forecasting Models: Leverage ML models like Monte Carlo simulations and FB-Prophet for forecasting cash flows and stock prices based on historical data.
-- Sentiment Analysis: Incorporate sentiment analysis to understand the market sentiment around particular stocks based on news articles and headlines.
+- For Trading related details: Golden Crossover – Trading Signals .
 - Interactive Visualizations: Use Plotly and Streamlit for dynamic and interactive data visualization, making it easier for users to analyze and digest information.
 
 ### Technology Stack
@@ -35,20 +36,13 @@ Analyze time series trends, visualize data, check for correlations, forecast pri
 
 ![image](https://github.com/rituraj-borah/Financial-Analysis-and-Stock-Price-prediction/blob/main/WebApp%20Overview.jpg)
 
+This web app, built using Streamlit, provides an interactive platform to analyze the performance of any stock over various time frames. Key features include:
 
-
-#### Financial Market Indices:
-This tab provides an overview of major financial market indices such as the Dow Jones, S&P 500, NASDAQ, and others. 
-Users can view real-time data, historical charts, and trends that help in understanding the current market conditions. 
-#### Macro-Economic Indicators:
-This section serves as a pulse check for the broader market, offering insights into overall economic health and investor sentiment.
-Focus on key macro-economic indicators such as Gross Domestic Product (GDP), inflation, unemployment rates, and others that influence financial markets and investment decisions. 
-This tab allows users to explore these indicators over time and across different geographies, providing a macroeconomic context that affects asset prices and market movements.
-#### Correlation Matrix - Heatmap:
-This tab features a heatmap of correlation matrices that show the relationship between different indices or macro-economic indicators. 
-It helps users identify which variables move together, which are inversely related, and which are unrelated. 
-This tool is invaluable for risk management and portfolio diversification, as it helps in understanding the co-movements of assets.
-#### Machine Learning based Price Forecast:
+- Stock Overview: Displays essential information like current price, market cap, and sector classification.
+- Financial Ratios: Provides a detailed view of various financial ratios for in-depth analysis.
+- Monte Carlo Simulation: Runs simulations to assess potential future stock price scenarios.
+- FB Prophet Model: Leverages the Prophet model to visualize historical performance and trends.
+- Golden Cross Signals: Highlights signals that may indicate long-term growth opportunities
 Here, users can access predictions for asset prices based on machine learning models. 
 This tab features models like XGBoost, LSTM, and other time series models including analyze historical data to forecast future prices. It provides a data-driven approach to estimate future market behavior, which can be essential for planning investment strategies.
 #### Company News and Sentiment Analysis:
