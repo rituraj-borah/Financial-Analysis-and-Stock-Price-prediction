@@ -1,7 +1,5 @@
 ## Financial Analysis and Stock Price prediction
 
-## Financial Market Versus Macro Economic Indicator of USA, Canada, India
-
 ### Description
 In this project, we developed an interactive web-application enabling users to evaluate US-listed companies through financial statements, ratios, and predictive analytics. 
 The application includes advanced ML models like Monte Carlo simulations and FB-Prophet for forecasting cash flows and stock prices, enhancing investment decision-making. It is a comprehensive financial analysis tools, offering users a holistic view of company performance for informed investment choices.
@@ -21,7 +19,7 @@ This will start a web server and open the dashboard in your default web browser.
 
 ### Features
 - Historical Data Analysis: Analyze historical stock prices and financial metrics using various statistical techniques.
-- Forecasting Models: Leverage models like XGBoost and LSTM (Long Short-Term Memory Networks) to predict future stock prices based on historical data.
+- Forecasting Models: Leverage ML models like Monte Carlo simulations and FB-Prophet for forecasting cash flows and stock prices based on historical data.
 - Sentiment Analysis: Incorporate sentiment analysis to understand the market sentiment around particular stocks based on news articles and headlines.
 - Interactive Visualizations: Use Plotly and Streamlit for dynamic and interactive data visualization, making it easier for users to analyze and digest information.
 
@@ -29,8 +27,7 @@ This will start a web server and open the dashboard in your default web browser.
 - Python: Primary programming language.
 - Streamlit: For creating the web-based interface.
 - Plotly: Used for interactive charts and graphs.
-- XGBoost & LSTM: For building predictive models.
-- Prophet: For forecasting time series data.
+- Monte Carlo simulations and FB-Prophet: For building predictive models.
 - Pandas & NumPy: For data manipulation and numerical calculations.
 
 ### Web App Overview
