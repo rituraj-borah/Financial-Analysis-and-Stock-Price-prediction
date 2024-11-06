@@ -133,7 +133,7 @@ with Introduction:
     st.write(data1["description"])
     st.markdown('---')
     st.subheader("Stock Data")
-    fig=px.line(data,x=data.index,y=data['Adj Close'],title= f'Line chart of Adj. Close Price of {company_name} stock:')
+    fig=px.line(data,x=data.index,y=data['Adj Close'].iloc[:, 0],title= f'Line chart of Adj. Close Price of {company_name} stock:')
     st.plotly_chart(fig)
     st.markdown('---')
     
