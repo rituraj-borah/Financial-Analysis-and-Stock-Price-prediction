@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ### Usage
 To start the application, run the following command in your terminal:
 ```
-streamlit run app.py
+streamlit run finance_app.py
 ```
 This will start a web server and open the dashboard in your default web browser.
 
